@@ -17,13 +17,13 @@ public class FinallyDemo {
         // }
 
         
-        try{
-            FileReader newFil = new FileReader("myFile.txt");
-        }catch (FileNotFoundException e){
-            System.out.println("Caught exception: file not found " + e.getMessage());
-        }finally{
-            System.out.println("Cleanup: this message shows that code is finished");
-        }
+        // try{
+        //     FileReader newFil = new FileReader("myFile.txt");
+        // }catch (FileNotFoundException e){
+        //     System.out.println("Caught exception: file not found " + e.getMessage());
+        // }finally{
+        //     System.out.println("Cleanup: this message shows that code is finished");
+        // }
         
 
     }
